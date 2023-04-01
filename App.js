@@ -5,12 +5,17 @@ import camera from '../AdaTeam3/images/camera.jpg';
 import save from '../AdaTeam3/images/save.jpg';
 import pic1 from '../AdaTeam3/images/pic1.jpg';
 import pic2 from '../AdaTeam3/images/pic2.jpg';
-
+import pic3 from '../AdaTeam3/images/pic3.jpg';
+import pic4 from '../AdaTeam3/images/pic4.jpg';
+import pic5 from '../AdaTeam3/images/pic5.jpg';
+import pic6 from '../AdaTeam3/images/pic6.jpg';
+import pic7 from '../AdaTeam3/images/pic7.jpg';
+import pic8 from '../AdaTeam3/images/pic8.jpg';
 
 export default function App() {
   return (
   <View style = {styles.container}>
-    <View>
+    <View> 
       <View style={styles.rectangle}></View>
       <Text style={styles.search}>search</Text>
       <View style={styles.secondRectangle}></View>
@@ -39,9 +44,32 @@ export default function App() {
         source={pic2}
         style={styles.pic2}
         />
-
-
-
+      <Image
+        source={pic3}
+        style={styles.pic3}
+        />
+        <Image
+        source={pic4}
+        style={styles.pic4}
+        />
+      </ScrollView>
+      <ScrollView horizontal = {true}>
+      <Image
+        source={pic5}
+        style={styles.pic5}
+        />
+      <Image
+        source={pic6}
+        style={styles.pic6}
+        />
+      <Image
+        source={pic7}
+        style={styles.pic7}
+        />
+        <Image
+        source={pic8}
+        style={styles.pic8}
+        />
       </ScrollView>
       <StatusBar style="auto" />
     </View>
@@ -61,22 +89,17 @@ const styles = StyleSheet.create({
     width: 270,
     backgroundColor: '#664739',
     borderRadius: 16,
-    position: 'relative',
-    top: -185,
-    left: 45
+   
   },
   search: {
-    color:'#EBE2DD',
-    position: 'relative',
-    left: 80,
-    bottom: 209
+    color:'white',
+    
   },
   secondRectangle: {
     height: 150,
     width: 360,
     backgroundColor: '#D9D9D9',
-    position: 'relative',
-    bottom: 180
+    
   },
   banner: {
     color: '#000000',
