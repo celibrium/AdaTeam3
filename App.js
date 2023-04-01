@@ -118,35 +118,49 @@ const styles = StyleSheet.create({
   banner: {
     color: '#000000',
     position: 'relative',
-    top: -10,
-    fontFamily: 'Roboto-Regular',
+    top: -40,
+    right: -130
   },
   recommended: {
     color: '#000000',
     position: 'relative',
+    right: -25,
+    bottom: -65,
+    fontSize: 16
   },
   popular: {
     color: '#000000',
     position: 'relative',
-
+    bottom: -207,
+    right: -25,
+    fontSize: 16,
   },
   menu: {
     height: 80,
     width: 375,
     backgroundColor: '#664739',
     position: 'relative',
-    top: 350
+    top: 335,
+    zIndex: 25,
   },
   home: {
     position: 'relative',
-    bottom: 50
+    bottom: -270,
+    right: -50,
+    zIndex: 26,
   },
   camera: {
     position: 'relative',
+    bottom: -223,
+    right: -155,
+    zIndex: 26,
 
   },
   save: {
     position: 'relative',
+    bottom: -176,
+    right: -270,
+    zIndex: 26,
     
   },
   search: {
@@ -157,8 +171,40 @@ const styles = StyleSheet.create({
   }, 
   scroll1: {
     position : 'relative',
-    top: 30,
-  }
+    top: -155,
+    resizeMode: 'contain',
+  },
+  pic4: {
+    position: 'relative',
+    right: -24
+    
+  },
+  pic3: {
+    position: 'relative',
+    right: -16
+  },
+  pic2: {
+    position: 'relative',
+    right: -8
+  },
+  scroll2: {
+    position: 'relative',
+    top: -80   
+  },
+  pic8: {
+    position: 'relative',
+    right: -24
+    
+  },
+  pic7: {
+    position: 'relative',
+    right: -16
+  },
+  pic6: {
+    position: 'relative',
+    right: -8
+  },
+
 
   
 });
